@@ -127,6 +127,7 @@
     var fade = settings.fade ? 'fade' : '';
     var modalClass = options.modalClass ? options.modalClass : settings.modalClass;
 
+
     var modal = $(
       '<div id="'+id+'" class="modal '+modalClass+' '+fade+'" tabindex="-1" role="dialog" aria-labelledby="'+id+'Label" aria-hidden="true">' +
         '<div class="modal-dialog">' +
@@ -137,7 +138,7 @@
             '</div>' +
             '<div class="modal-body"></div>' +
             '<div class="modal-footer">' +
-              '<button type="button" class="btn cancel" data-dismiss="modal" aria-hidden="true"></button>' +
+              '<button type="button" class="btn cancel" data-dismiss="modal" aria-hidden="true"></button>&nbsp;' +
               '<button type="button" class="btn commit"></button>' +
             '</div>'+
           '</div>'+
