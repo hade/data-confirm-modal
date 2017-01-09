@@ -219,7 +219,7 @@
     focus_element = modal.find('.' + focus_element);
 
     modal.on('shown.bs.modal', function () {
-      //focus_element.focus();
+      focus_element.focus();
     });
 
     $('body').append(modal);
